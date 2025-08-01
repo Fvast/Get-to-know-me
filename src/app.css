@@ -1,0 +1,16 @@
+.App{
+    display: grid;
+    grid-template-areas: 
+    "sidebar home";
+    grid-template-columns: 100px 1fr;
+    min-height: 100vh;
+    background-color: #fff9d5;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.home{
+    grid-area: home;
+}

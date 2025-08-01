@@ -1,0 +1,367 @@
+.fadeContainer {
+    color: #5d4037;
+    display: grid;
+    grid-template-areas: 
+        "initialText myImage";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+    padding-left: 80px;
+}
+
+.container{
+    background-color: #fff9d5;
+}
+
+@font-face {
+    font-family: 'bugakiFont';
+    src: url('./bugaki-font/BugakiRegular-514J8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'theSeasonsFont';
+    src: url('./Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.initialText {
+    grid-area: initialText;
+    text-align: left;
+    text-indent: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.initialLogo{
+    transition: height 0.3s ease-out;
+}
+
+.initialLogo:hover{
+    height: 90px;
+    transition: height 0.3s ease-in-out;
+}
+
+.meAndLogo {
+    display: flex;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.myImage {
+    grid-area: myImage;
+    padding-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.ansen {
+    margin-left: -30px;
+}
+
+.hwu {
+    font-size: 40px;
+    margin-bottom: -60px;
+    font-family: bugakiFont;
+    font-size: 70px;
+}
+
+.smallText{
+    font-family: theSeasonsFont;
+    font-size: 20px;
+}
+
+.CityULink:hover{
+    font-size: 30px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.CityULink{
+    transition: font-size 0.3s ease-out;
+}
+
+.contact{
+    color: #5d4037;
+}
+
+.so{
+    font-size: 35px;
+    text-indent: 80px;
+    font-family: bugakiFont;
+}
+
+textarea{
+    background-color: #fdf5e6;
+    color: #5d4037;
+    border: 0px;
+    font-family: theSeasonsFont;
+    text-indent: 10px;
+    align-content: center;
+    height: 50px;
+}
+
+.formName{
+    width: 380px;
+    margin-right: 20px;
+}
+
+.formName:active{
+    background-color: #a28a82;
+    color: #fff9d5;
+}
+
+.formContact{
+    width: 597px;
+}
+
+.formContact:active{
+    background-color: #a28a82;
+    color: #fff9d5;
+}
+
+.formSubject{
+    width: 1000px;
+}
+
+.formSubject:active{
+    background-color: #a28a82;
+    color: #fff9d5;
+}
+
+.formContent{
+    width: 1000px;
+    height: 150px;
+    align-content: baseline;
+}
+
+.formContact:active{
+    background-color: #a28a82;
+    color: #fff9d5;
+}
+
+.buttonSubmit{
+    margin-right: 30px;
+    background-color: #fdf5e6;
+    color: #5d4037;
+    border: 0px;
+    border-radius: 20px;
+    font-family: theSeasonsFont;
+    width: 80px;
+    height: 40px;
+    margin-bottom: 100px;
+    align-content: center;
+    transition: width 0.2s ease-out, height 0.2s ease-out;
+}
+
+.buttonReset{
+    margin-left: 30px;
+    background-color: #fdf5e6;
+    color: #5d4037;
+    border: 0px;
+    border-radius: 20px;
+    font-family: theSeasonsFont;
+    width: 80px;
+    height: 40px;
+    margin-bottom: 120px;
+    align-content: center;
+    transition: width 0.2s ease-out, height 0.2s ease-out;
+}
+
+.buttonSubmit:hover{
+    width: 100px;
+    height: 50px;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.buttonSubmit:active{
+    background-color: #a28a82;
+}
+
+.buttonReset:hover{
+    width: 100px;
+    height: 50px;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.buttonReset:active{
+    background-color: #a28a82;
+}
+
+.secondary_heading_text{
+    font-size: 45px;
+    text-indent: 60px;
+    font-family: bugakiFont;
+    color: #5d4037;
+}
+
+.tertiary_heading_text{
+    color: #5d4037;
+    font-size: 30px;
+    text-indent: 75px;
+    font-family: bugakiFont;
+}
+
+.CS_content_text{
+    color: #5d4037;
+    font-family: theSeasonsFont;
+    font-size: 18px;
+    padding-left: 95px;
+    text-indent: 25px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.button_link{
+    background-color: #fdf5e6;
+    border-color: #5d4037;
+    border-radius: 5px;
+    font-family: theSeasonsFont;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 120px;
+    transition: height 0.3s ease-out, width 0.3s ease-out;
+}
+
+.button_link_text{
+    color: #5d4037;
+    font-size: 30px;
+    font-family: bugakiFont;
+}
+
+.photo_tertiary_text{
+    color: #5d4037;
+    font-size: 30px;
+    font-family: bugakiFont;
+}
+
+.image_table{
+    margin-bottom: 60px;
+}
+
+.button_link:hover{
+    height: 100px;
+    width: 500px;
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.arrowIcon{
+    height: 110px;
+    transition: height 0.2s ease-out;
+}
+
+.arrowIcon:hover{
+    height: 150px;
+    transition: height 0.2s ease-in-out;
+}
+
+.HTMLLine{
+    width: 75%;
+    height: 15px;
+    background: linear-gradient(to right, #e65127, #f2672e);
+    margin: 20px 0;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.HTML{
+    color: #5d4037;
+    font-size: 16px;
+    font-family: TheSeasonsFont;
+}
+
+.PythonLine{
+    width: 75%;
+    height: 15px;
+    background: linear-gradient(to right, #3f7cae, #ffd846);
+    margin: 20px 0;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.Python{
+    color: #5d4037;
+    font-size: 16px;
+    font-family: TheSeasonsFont;
+}
+
+.CSSLine{
+    width: 50%;
+    height: 15px;
+    background: linear-gradient(to right, #0c73b8, #30aadd);
+    margin: 20px 0;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.CSS{
+    color: #5d4037;
+    font-size: 16px;
+    font-family: TheSeasonsFont;
+}
+
+.JsLine{
+    width: 50%;
+    height: 15px;
+    background: linear-gradient(to right, #e7a328, #f2bf26);
+    margin: 20px 0;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.Javascript{
+    color: #5d4037;
+    font-size: 16px;
+    font-family: TheSeasonsFont;
+}
+
+.ReactLine{
+    width: 5%;
+    height: 15px;
+    background-color: #61dafb;
+    margin: 20px 0;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-bottom: 55px;
+}
+
+.React{
+    color: #5d4037;
+    font-size: 16px;
+    font-family: TheSeasonsFont;
+}
+
+.HTML, .Python, .CSS, .Javascript, .React {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.HTMLTextYear, .PythonTextYear {
+    margin-right: 245px;
+    margin-bottom: -15px;
+}
+
+.CSSTextYear, .JsTextYear{
+    margin-right: 570px;
+    margin-bottom: -15px;
+}
+
+.ReactTextYear{
+    margin-right: 1000px;
+    margin-bottom: -15px;
+}
+
+.HTMLText, .PythonText, .CSSText, .JsText, .ReactText{
+    margin-left: 100px;
+    margin-bottom: -15px;
+}
+
+.myProjects{
+    padding-bottom: 60px;
+}

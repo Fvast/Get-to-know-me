@@ -1,0 +1,303 @@
+.sidebar-container{
+    background-color: #5d4037;
+    height: auto;
+    color: #000000;
+    align-content: center;
+    padding-left: 22px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.fadeContainerSidebar{
+    position: sticky;
+    background-color: #5d4037;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+}
+
+@font-face {
+    font-family: 'bugakiFont';
+    src: url('./bugaki-font/BugakiRegular-514J8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logoCreamContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logoCreamContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.logoCreamText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 20px;
+}
+
+.logoCreamContainer:hover .logoCreamText {
+    opacity: 1;
+}
+
+.home_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.home_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.home_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 16px;
+}
+
+.home_ImageContainer:hover .home_ImageText {
+    opacity: 1;
+}
+
+.CS_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.CS_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.CS_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 12px;
+}
+
+.CS_ImageContainer:hover .CS_ImageText {
+    opacity: 1;
+}
+
+.photo_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.photo_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.photo_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 12px;
+}
+
+.photo_ImageContainer:hover .photo_ImageText {
+    opacity: 1;
+}
+
+.contact_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contact_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 16px;
+}
+
+.contact_ImageContainer:hover .contact_ImageText {
+    opacity: 1;
+}
+
+.email_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.email_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.email_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 10px;
+}
+
+.email_ImageContainer:hover .email_ImageText {
+    opacity: 1;
+}
+
+.linkedin_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.linkedin_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.linkedin_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 10px;
+}
+
+.linkedin_ImageContainer:hover .linkedin_ImageText {
+    opacity: 1;
+}
+
+.github_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.github_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.github_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 10px;
+}
+
+.github_ImageContainer:hover .github_ImageText {
+    opacity: 1;
+}
+
+.instagram_ImageContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.instagram_ImageContainer:hover img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.instagram_ImageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff9d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bugakiFont;
+    font-size: 10px;
+}
+
+.instagram_ImageContainer:hover .instagram_ImageText {
+    opacity: 1;
+}
