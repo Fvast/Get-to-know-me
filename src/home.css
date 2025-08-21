@@ -6,6 +6,7 @@
     grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     min-height: 100vh;
+    padding-left: 80px;
     width: 100%;
 }
 
