@@ -301,3 +301,86 @@
 .instagram_ImageContainer:hover .instagram_ImageText {
     opacity: 1;
 }
+
+    /* Hide logo and spacing rows on mobile */
+    .sidebar-container tr:nth-child(1),
+    .sidebar-container tr:nth-child(2), 
+    .sidebar-container tr:nth-child(3),
+    .sidebar-container tr:nth-child(8),
+    .sidebar-container tr:nth-child(9),
+    .sidebar-container tr:nth-child(10),
+    .sidebar-container tr:nth-child(11),
+    .sidebar-container tr:nth-child(12) {
+        display: none;
+    }
+    
+    /* Show only main navigation items */
+    .sidebar-container tr:nth-child(4),
+    .sidebar-container tr:nth-child(5),
+    .sidebar-container tr:nth-child(6),
+    .sidebar-container tr:nth-child(7) {
+        display: flex;
+        flex: 1;
+        height: 60px;
+        margin: 0;
+    }
+    
+    /* Adjust icon sizes for mobile */
+    .home_ImageContainer img,
+    .CS_ImageContainer img,
+    .photo_ImageContainer img,
+    .contact_ImageContainer img {
+        width: 25px !important;
+        height: auto !important;
+    }
+    
+    /* Adjust text sizes for mobile navigation */
+    .home_ImageText,
+    .contact_ImageText {
+        font-size: 8px !important;
+    }
+    
+    .CS_ImageText,
+    .photo_ImageText {
+        font-size: 6px !important;
+    }
+    
+    /* Remove hover effects on mobile (use touch instead) */
+    .home_ImageContainer:hover img,
+    .CS_ImageContainer:hover img,
+    .photo_ImageContainer:hover img,
+    .contact_ImageContainer:hover img {
+        opacity: 1;
+    }
+    
+    .home_ImageContainer:hover .home_ImageText,
+    .CS_ImageContainer:hover .CS_ImageText,
+    .photo_ImageContainer:hover .photo_ImageText,
+    .contact_ImageContainer:hover .contact_ImageText {
+        opacity: 0;
+    }
+    
+    /* Show text by default on mobile */
+    .home_ImageText,
+    .CS_ImageText,
+    .photo_ImageText,
+    .contact_ImageText {
+        opacity: 1;
+        position: relative;
+        margin-top: 2px;
+        height: auto;
+        font-size: 8px;
+        color: #fff9d5;
+    }
+    
+    /* Stack icon and text vertically on mobile */
+    .home_ImageContainer,
+    .CS_ImageContainer,
+    .photo_ImageContainer,
+    .contact_ImageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
