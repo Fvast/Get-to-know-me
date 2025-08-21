@@ -165,9 +165,11 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
         
         <h2 className="tertiary_heading_text">My Journey</h2>
         <div className="journey_diagram">
+        <p className="startHTML_text">2022 Started learning HTML</p>
         <div className="startHTML"></div>
         <div className="startHTML_startPython_transition"></div>
         <div className="startPython"></div>
+        <p className="startPython_text">2022 Also started learning Python for coding algorithms</p>
         <div className="startPython_startCSSandJS_transition"></div>
         <div className="startCSSandJS"></div>
         <div className="startCSSandJS_firstWebProject_transition"></div>

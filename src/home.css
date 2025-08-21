@@ -370,12 +370,27 @@ textarea{
     padding-bottom: 60px;
 }
 
+.journey_diagram{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-family: TheSeasonsFont;
+}
+
+.startHTML_text{
+    color: #5d4037;
+    font-size: 25px;
+    text-indent: 100px;
+}
+
 .startHTML {
     width: 80%;
     height: 15px;
     background: linear-gradient(to right, #e65127 , #f2672e);
     border-radius: 15px;
     margin-left: 100px;
+    margin-top: -15px;
 }
 
 .startHTML_startPython_transition {
@@ -394,6 +409,15 @@ textarea{
     border-radius: 15px;
     margin-left: 100px;
     margin-top: -15px;
+    z-index: 1;
+    position: relative;
+}
+
+.startPython_text{
+    color: #5d4037;
+    font-size: 25px;
+    text-indent: 800px;
+    background-color: #fff9d5;
 }
 
 .startPython_startCSSandJS_transition{
