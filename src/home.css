@@ -385,7 +385,7 @@ textarea{
 }
 
 .startHTML {
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #e65127 , #f2672e);
     border-radius: 15px;
@@ -403,7 +403,7 @@ textarea{
 }
 
 .startPython {
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #3f7cae, #ffd846);
     border-radius: 15px;
@@ -430,7 +430,7 @@ textarea{
 }
 
 .startCSSandJS {
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #0c73b8, #30aadd, #e7a328, #f2bf26);
     border-radius: 15px;
@@ -448,7 +448,7 @@ textarea{
 }
 
 .firstWebProjectHTML{
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #e65127 , #f2672e);
     border-radius: 15px;
@@ -457,7 +457,7 @@ textarea{
 }
 
 .firstWebProjectCSS{
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #0c73b8, #30aadd);
     border-radius: 15px;
@@ -465,7 +465,7 @@ textarea{
 }
 
 .firstWebProjectJS{
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #e7a328, #f2bf26);
     border-radius: 15px;
@@ -482,7 +482,7 @@ textarea{
 }
 
 .PythonProject1{
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to right, #3f7cae, #ffd846);
     border-radius: 15px;
@@ -500,7 +500,7 @@ textarea{
 }
 
 .PythonProject2{
-    width: 80%;
+    width: 1040px;
     height: 15px;
     background: linear-gradient(to left, #3f7cae, #ffd846);
     border-radius: 15px;
@@ -518,7 +518,7 @@ textarea{
 }
 
 .startReact{
-    width: 40%;
+    width: 520px;
     height: 15px;
     background: #61dafb;
     border-radius: 15px;
