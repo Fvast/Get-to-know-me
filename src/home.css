@@ -34,7 +34,7 @@
 .initialText {
     grid-area: initialText;
     text-align: left;
-    text-indent: 800px;
+    text-indent: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
