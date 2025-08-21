@@ -166,7 +166,20 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
         <h2 className="tertiary_heading_text">My Journey</h2>
         <div className="journey_diagram">
         <div className="startHTML"></div>
-        
+        <div className="startHTML_startPython_transition"></div>
+        <div className="startPython"></div>
+        <div className="startPython_startCSSandJS_transition"></div>
+        <div className="startCSSandJS"></div>
+        <div className="startCSSandJS_firstWebProject_transition"></div>
+        <div className="firstWebProjectHTML"></div>
+        <div className="firstWebProjectCSS"></div>
+        <div className="firstWebProjectJS"></div>
+        <div className="firstWebProject_pythonProject1_transition"></div>
+        <div className="PythonProject1"></div>
+        <div className="PythonProject1_pythonProject2_transition"></div>
+        <div className="PythonProject2"></div>
+        <div className="PythonProject2_startReact_transition"></div>
+        <div className="startReact"></div>
         </div>
 
         <h2 className="tertiary_heading_text">My Past Projects</h2>

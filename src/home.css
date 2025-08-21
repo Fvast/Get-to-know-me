@@ -371,9 +371,133 @@ textarea{
 }
 
 .startHTML {
-    width: 50%;
+    width: 80%;
     height: 15px;
-    background-color: linear-gradient(to right, #e65127 , #f2672e);
+    background: linear-gradient(to right, #e65127 , #f2672e);
     border-radius: 15px;
     margin-left: 100px;
+}
+
+.startHTML_startPython_transition {
+    width: 15px;
+    height: 120px;
+    background: linear-gradient(to bottom, #f2672e, #ffd846);
+    border-radius: 15px;
+    margin-left: 1129px;
+    margin-top: -15px;
+}
+
+.startPython {
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #3f7cae, #ffd846);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.startPython_startCSSandJS_transition{
+    width: 15px;
+    height: 120px;
+    background: linear-gradient(to bottom, #3f7cae, #0c73b8);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.startCSSandJS {
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #0c73b8, #30aadd, #e7a328, #f2bf26);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.startCSSandJS_firstWebProject_transition{
+    width: 15px;
+    height: 120px;
+    background: linear-gradient(to bottom, #f2bf26, #f2672e);
+    border-radius: 15px;
+    margin-left: 1129px;
+    margin-top: -15px;
+}
+
+.firstWebProjectHTML{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #e65127 , #f2672e);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.firstWebProjectCSS{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #0c73b8, #30aadd);
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.firstWebProjectJS{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #e7a328, #f2bf26);
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.firstWebProject_pythonProject1_transition{
+    width: 15px;
+    height: 250px;
+    background: linear-gradient(to bottom, #e7a328, #3f7cae);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.PythonProject1{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to right, #3f7cae, #ffd846);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.PythonProject1_pythonProject2_transition{
+    width: 15px;
+    height: 250px;
+    background: linear-gradient(to bottom, #ffd846, #3f7cae);
+    border-radius: 15px;
+    margin-left: 1129px;
+    margin-top: -15px;
+}
+
+.PythonProject2{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(to left, #3f7cae, #ffd846);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.PythonProject2_startReact_transition{
+    width: 15px;
+    height: 250px;
+    background: linear-gradient(to bottom, #ffd846, #61dafb);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.startReact{
+    width: 40%;
+    height: 15px;
+    background: #61dafb;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -15px;
 }
