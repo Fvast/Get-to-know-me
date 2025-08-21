@@ -16,6 +16,7 @@
     grid-area: home;
 }
 
+/*Mobile view*/
 @media screen and (max-width: 768px){
     .App {
         grid-template-areas: 
@@ -38,11 +39,5 @@
         padding-left: 20px;
         padding-right: 20px;
         width: 768px;
-    }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-    .App {
-        grid-template-columns: 80px 1fr; 
     }
 }
