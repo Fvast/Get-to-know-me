@@ -30,14 +30,14 @@
         left: 0;
         right: 0;
         z-index: 1000;
-        height: 100%;
+        height: 60px;
     }
     
     .home {
         padding-bottom: 70%;
         padding-left: 20px;
         padding-right: 20px;
-        width: 100%;
+        width: 768px;
     }
 }
 
