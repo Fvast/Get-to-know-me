@@ -9,6 +9,10 @@
     padding-left: 80px;
 }
 
+:root{
+    color-scheme: light;
+}
+
 .container{
     background-color: #fff9d5;
 }
@@ -364,4 +368,12 @@ textarea{
 
 .myProjects{
     padding-bottom: 60px;
+}
+
+.startHTML {
+    width: 50%;
+    height: 15px;
+    background-color: linear-gradient(to right, #e65127 , #f2672e);
+    border-radius: 15px;
+    margin-left: 100px;
 }

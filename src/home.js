@@ -162,7 +162,13 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
         <h1 className="secondary_heading_text">My CS Experience</h1>
         <h2 className="tertiary_heading_text">Get to know me</h2>
         <p className="CS_content_text" align="justify">I believe that advancements in technology are inevitable especially in the field of artificial intelligence. As a result, I hold deeply a responsibility especially as a computer science student, to be able to understand how to use and implement technology and software accordingly and responsibly. </p>
-      
+        
+        <h2 className="tertiary_heading_text">My Journey</h2>
+        <div className="journey_diagram">
+        <div className="startHTML"></div>
+        
+        </div>
+
         <h2 className="tertiary_heading_text">My Past Projects</h2>
 
         <table className="myProjects" align='center'>
