@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px){
     .App {
         grid-template-areas: 
-        "sidebar" "home";
+        "sidebar home";
         grid-template-columns: auto 1fr;
         grid-template-rows: auto 1fr;
     }
