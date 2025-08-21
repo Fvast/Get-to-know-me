@@ -20,7 +20,7 @@
     .App {
         grid-template-areas: 
         "sidebar" "home";
-        grid-template-columns: 2fr;
+        grid-template-columns: auto 1fr;
         grid-template-rows: auto 1fr;
     }
 
