@@ -21,19 +21,24 @@
         grid-template-areas: 
         "sidebar"
         "home";
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         grid-template-rows: auto 1fr;
     }
 
     .sidebar {
-        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        height: 60px;
     }
     
     .home {
         padding-bottom: 70%;
         padding-left: 20px;
         padding-right: 20px;
-        width: 100%
+        width: 768px;
     }
 }
 
